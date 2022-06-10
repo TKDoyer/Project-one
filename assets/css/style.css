@@ -1,0 +1,21 @@
+/* color variables for easier to remember names */
+:root {
+  --primary: rgb(101, 183, 135);
+  --secondary: #273305;
+  --box: #c0a50cd2;
+}
+
+/* remove default CSS styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
