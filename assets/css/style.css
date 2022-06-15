@@ -11,6 +11,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+ color:  #9fba5f;
+ font-size: 30px;
+  
+}
+body {
+  background-color: #116363;
+
+}
 header {
   background-color: var(--primary);
   display:flex;
@@ -56,6 +65,28 @@ header ul li a:hover {
   background-color: rgb(17, 99, 99);
   font-family: Georgia, 'Times New Roman', Times, serif;
   
+}
+.btn {
+  color:gold;
+  background: #9fba5f;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 12px;
+}
+.currency select{
+  padding: 10px 20px 10px 10px; 
+  font-size: 20px;
+  background: transparent;
+  background-color: #9fba5f;
+  color:gold;
+  border-radius: 5px;
+}
+.currency input {
+  border: 2px;
+  background: lightgray;
+  font-size: 30px;
+  text-align: right;
 }
 footer {
   background-color: rgb(11, 116, 107);
