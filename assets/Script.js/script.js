@@ -1,4 +1,3 @@
-// api key for currency 3e3716909a8c09eed8a04aac
 const currencyEl_one = document.getElementById('currency-one');
 const currencyEl_two = document.getElementById('currency-two');
 const amountEl_one = document.getElementById('amount1');
@@ -8,8 +7,8 @@ const rateEl = document.getElementById('rate');
 const swap = document.getElementById('swap');
 
 // Fetch exchange rates and update the dome
-
-
+// api key for currency 3e3716909a8c09eed8a04aac
+// api key for map AIzaSyB1xW1CKr_tB0XLM3obh_gDVeTLPqI0654
 function calculate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;

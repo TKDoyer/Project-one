@@ -31,10 +31,7 @@ nav ul li {
   color: var(--primary);
   border-radius: 15px;
 }*/
-#map {
-  height : 300px;
-  width: 100%;
-}
+
 
 .container-one {
   display: flex;
