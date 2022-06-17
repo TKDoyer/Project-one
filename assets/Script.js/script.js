@@ -12,6 +12,7 @@ const swap = document.getElementById('swap');
 function calculate() {
   const currency_one = currencyEl_one.value;
   const currency_two = currencyEl_two.value;
+  //https://v6.exchangerate-api.com/v6/3e3716909a8c09eed8a04aac/latest/USD
 
   fetch(`https://v6.exchangerate-api.com/v6/3e3716909a8c09eed8a04aac/latest/${currency_one}`)
     .then((res) => res.json())
