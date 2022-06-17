@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-w3schools.css">
     <link rel="icon" href="./assets/favicon/favicon.ico"/>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Change My Money</title>
@@ -15,25 +15,24 @@
 </head>
 <body> 
     
-    <header class="header">
-        <div class="pure-menu pure-menu-horizontal display-flex">
+    <header class="w3-container w3-theme w3-card">
+        <div>
             <img class="pure-menu-heading pure-menu-link"src="./assets/image/dollar-sign.jpg" width="80" height="70" />
             
-            <ul class="time clock pure-menu-list text-right">
-                <li class="time clock pure-menu-item">
-                    <a href="#" class="pure-menu-link">China</a>
-                </li>
-                <li class="pure-menu-item">
-                    <a href="#" class="pure-menu-link">USA</a>
-                </li>
-                <li class="pure-menu-item">
-                    <a href="#" class="pure-menu-link">France</a>
-                </li>
-                <li class="pure-menu-item">
-                    <a href="#"class="pure-menu-link">Sign In</a>
-                </li>
-                
-            </ul>
+            <h1 class="logo">XChange</h1> 
+      <div class="w3-bar w3-theme-l3">
+        <a href="#" class="w3-bar-item w3-button">Sign In</a>
+       
+      <div class="w3-dropdown-hover w3-right">
+
+       <button class="w3-button">Clock</button>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">USA</a>
+        <a href="#" class="w3-bar-item w3-button">China</a>
+        <a href="#" class="w3-bar-item w3-button">France</a>
+       </div>
+      </div>
+
             
 
         </div>  
@@ -41,13 +40,14 @@
     </header>
     <!-- Navagation -->
 
-    <div class="container pure-g">
-        <!--Navigation-->
-        <div class="map pure-u-1-3"><p>Find Exchange Map</p></div>
-        <!--Online Navigation-->
+   <!-- <div class="container pure-g">
+        Navigation-->
+       <!-- <div class="map pure-u-1-3"><p>Find Exchange Map</p></div> --> 
+               <!--Online Navigation-->
             
         <!--Compaire Rates-->
-        <div class="rates pure-u-1-3"> 
+        <section class="container-one w3-row-padding">
+            <div class="w3-col-3 s6 w3-center">
         
             <p>Currency Exchange </p>
           
@@ -111,7 +111,7 @@
         
             </div>
             <div class="swap-rate-btn">
-              <button class="btn is-primary" id="swap">Swap</button>
+              <button class="btn" id="swap">Swap</button>
               <div class="rate" id="rate"></div>
             </div> 
         
@@ -170,7 +170,7 @@
                 <option value="VND">VND</option>
                 <option value="ZAR">ZAR</option>
               </select>
-              <input type="number" id="amount-two" placeholder="0" />
+              <input type="number" id="amount2" placeholder="0" />
             </div>
             
           </div> 
